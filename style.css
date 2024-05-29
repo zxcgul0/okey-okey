@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+#header{
+    width: 900px;
+    height: 200px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    background-image: url(https://yandex.ru/images/search?text=магазин+фото+для+шапки+сайта&pos=7&rpt=simage&img_url=https%3A%2F%2Fsun9-30.userapi.com%2Fimpf%2F1n38BfJ48P9Atn6Z39BHLtYCHOhN5KXNH2x-SA%2FzhJRAJeq7NE.jpg%3Fsize%3D1920x768%26quality%3D95%26crop%3D368%2C0%2C1000%2C399%26sign%3D4c65b70c795c2974230406462fb3f636%26type%3Dcover_group&from=tabbar&lr=236z);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #2e2b2b 3px solid;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+}
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+.main-content {
+    background: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+nav ul.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul.menu li {
+    margin: 0 15px;
+    position: relative;
+}
+
+nav ul.menu li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav ul.menu li a:hover {
+    color: #3498db;
+}
+
+nav ul.menu li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ecf0f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+nav ul.menu li .dropdown-content a {
+    color: #2c3e50;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: background-color 0.3s;
+}
+
+nav ul.menu li .dropdown-content a:hover {
+    background-color: #bdc3c7;
+}
+
+nav ul.menu li:hover .dropdown-content {
+    display: block;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+main section h1, main section h2 {
+    color: #2c3e50;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+
+.icon-button {
+    background-image: url("https://cs1.htmlacademy.ru/blog/html/how-to-button/b6eaec75968b4e1a67d215f17f2cccf6.png");
+    background-size: 90px 97px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.center {
+    text-align: center;
+    font-size: 66px;
+}
+  
+.carousel-new {
+    height: 80vh;
+}
+
+.carousel-new img {
+    display: block;
+    height: 50vh;
+    width: 100%;
+    object-fit: contain;
+}

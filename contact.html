@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | Интернет Магазин</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Интернет Магазин</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="shop.html">Магазин</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <h2>Контакты</h2>
+            <p>Если у вас есть вопросы или предложения, свяжитесь с нами:</p>
+            <ul>
+                <li><strong>Телефон:</strong> +7 (123) 456-78-90</li>
+                <li><strong>Email:</strong> scam@internet.com</li>
+                <li><strong>Адрес:</strong> г.Дно, ул. Уличная, д. 52</li>
+            </ul>
+            <h3>Форма обратной связи</h3>
+            <form action="submit_form.php" method="post">
+                <p>
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </p>
+                <p>
+                    <button type="submit">Отправить</button>
+                </p>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024  Магазин. Все права защищены.</p>
+    </footer>
+</body>
+</html>
